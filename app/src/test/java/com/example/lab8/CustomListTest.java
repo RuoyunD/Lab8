@@ -50,6 +50,8 @@ public class CustomListTest {
     void testDelete(){
         list = MockCityList();
         City city = new City("Edmonton", "Alberta");
+        list.addCity(city);
+        list.delete(city);
         assertFalse(list.getCities().contains(city));
     }
 
