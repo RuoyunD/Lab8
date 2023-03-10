@@ -79,9 +79,9 @@ public class CustomList extends ArrayAdapter<City> {
     }
 
     public void delete(City city){
-        if (hasCity(city)) {
-            cities.remove(city);
-        }
+//        if (hasCity(city)) {
+//            cities.remove(city);
+//        }
     }
 //
 //    public int countCities(){
